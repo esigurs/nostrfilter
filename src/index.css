@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+.input-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.key-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.fetch-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.fetch-button:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.notes-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.notes-container h2 {
+  margin-top: 0;
+  color: #0056b3;
+}
+
+.note-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.note-item p {
+  margin: 5px 0;
+}
+
+.note-item code {
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
